@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>https://github.com/fdlaainsni/CODEALPHA_TODOLIST
+    <div class="container">
+        <header>
+            <h1>📝 My To-Do List</h1>
+        </header>
+        
+        <main>
+            <form id="todoForm" class="add-task-form">
+                <input type="text" id="taskInput" placeholder="Add a new task..." required>
+                <button type="submit">Add Task</button>
+            </form>
+            
+            <div class="task-stats">
+                <span id="totalTasks">0</span> total tasks, 
+                <span id="completedTasks">0</span> completed
+            </div>
+            
+            <ul id="taskList" class="task-list"></ul>
+            
+            <div class="actions">
+                <button id="clearCompleted" class="btn-secondary">Clear Completed</button>
+                <button id="clearAll" class="btn-danger">Clear All</button>
+                <hr><p class="text-center">Created by <a href="https://github.com/fdlaainsni">@fdlaainsni</a></p>
+            </div>
+            </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
